@@ -14,6 +14,15 @@ ShadowFox styles the entire user interface, protected webpages (such as `about:`
 
 ## Installation and Updating
 
+### For Firefox 69 and up
+
+Navigate to `about:config` and enable:
+
+* `toolkit.legacyUserProfileCustomizations.stylesheets`
+* `browser.in-content.dark-mode` (before [Firefox 76](https://hg.mozilla.org/mozilla-central/rev/8d9a9fb00162))
+
+## For Firefox before 69
+
 A cross-platform installer/uninstaller/updater is maintained in the [shadowfox-updater](https://github.com/SrKomodo/shadowfox-updater) repository.  Latest versions can be found in the [releases](https://github.com/SrKomodo/shadowfox-updater/releases) section, or via `Homebrew`, `MacPorts`, and `AUR`.  Please see the [README](https://github.com/SrKomodo/shadowfox-updater/blob/master/README.md) file for details on how to use the updater (GUI and CLI options available) and solutions to common problems.
 
 ## Customization
